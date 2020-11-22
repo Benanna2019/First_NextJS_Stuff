@@ -22,12 +22,23 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          Hello, I'm Ben. I'm a Fullstack JavaScript Developer. I love learning
-          new things and helping others succeed.{" "}
+          Hello, I'm Ben. I'm a Fullstack JavaScript Developer. I love software
+          engineering, not just for the creativity but for the type of work it
+          is. Problem solving, helping others, creating software is amazing to
+          me.
         </p>
         <p>
-          (This is a sample website - you’ll be building a site like this on{" "}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
+          This is my blog. I have called this site 'Henneth Annun Tavern.' The
+          name comes from my deep enjoyment of Lord of the Rings. Henneth Annun
+          was a hideout of sorts, a place of refuge, for the rangers of Middle
+          earth. Lord of the Rings has many elements of its literature that
+          speak to me but non more deeply, possibly, than that of a place of
+          refuge and safety away from all the chaos of the world.
+        </p>
+        <p>So, welcome.</p>
+        <p>
+          I hope this to be somewhere you can read all my musings about
+          software, life, philosophy, religion, culture and so on.
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>

@@ -4,6 +4,8 @@ import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import HomeIcon from "@material-ui/icons/Home";
+import TwitterIcon from "@material-ui/icons/Twitter";
 
 const name = "Ben Patton";
 export const siteTitle = "Henneth Annun Tavern";
@@ -13,6 +15,9 @@ export default function Layout({ children, home }) {
     <div className={styles.layoutContainer}>
       <div className={styles.headerStuff}>
         <div className={styles.headerIcons}>
+          <Link href="/">
+            <HomeIcon className={styles.icons}></HomeIcon>
+          </Link>
           <GitHubIcon
             className={styles.icons}
             onClick={() =>
@@ -28,6 +33,12 @@ export default function Layout({ children, home }) {
               )
             }
           ></LinkedInIcon>
+          <TwitterIcon
+            className={styles.twitterIcon}
+            onClick={() =>
+              window.open("https://twitter.com/Ben55278503", "_blank")
+            }
+          ></TwitterIcon>
         </div>
         {/* <div>
           <img
@@ -69,17 +80,12 @@ export default function Layout({ children, home }) {
               <Link href="/">
                 <a>
                   <img
-                    src="/images/profile.jpg"
+                    src="/images/study.jpg"
                     className={`${styles.headerImage} ${utilStyles.borderCircle}`}
                     alt={name}
                   />
                 </a>
               </Link>
-              <h2 className={utilStyles.headingLg}>
-                <Link href="/">
-                  <a className={utilStyles.colorInherit}>{name}</a>
-                </Link>
-              </h2>
             </>
           )}
         </header>

@@ -10,24 +10,34 @@ export const siteTitle = "Henneth Annun Tavern";
 
 export default function Layout({ children, home }) {
   return (
-    <>
-      <div className={styles.headerIcons}>
-        <GitHubIcon
-          className={styles.icons}
-          onClick={() =>
-            window.open("https://github.com/Benanna2019", "_blank")
-          }
-        ></GitHubIcon>
-        <LinkedInIcon
-          className={styles.icons}
-          onClick={() =>
-            window.open(
-              "https://www.linkedin.com/in/benjaminpatton41992",
-              "_blank"
-            )
-          }
-        ></LinkedInIcon>
+    <div className={styles.layoutContainer}>
+      <div className={styles.headerStuff}>
+        <div className={styles.headerIcons}>
+          <GitHubIcon
+            className={styles.icons}
+            onClick={() =>
+              window.open("https://github.com/Benanna2019", "_blank")
+            }
+          ></GitHubIcon>
+          <LinkedInIcon
+            className={styles.icons}
+            onClick={() =>
+              window.open(
+                "https://www.linkedin.com/in/benjaminpatton41992",
+                "_blank"
+              )
+            }
+          ></LinkedInIcon>
+        </div>
+        {/* <div>
+          <img
+            className={`${styles.studyLogo} `}
+            src="/images/study.jpg"
+            alt="The Study"
+          />
+        </div>  */}
       </div>
+
       <div className={styles.container}>
         <Head>
           <link rel="icon" href="/favicon.ico" />
@@ -82,6 +92,6 @@ export default function Layout({ children, home }) {
           </div>
         )}
       </div>
-    </>
+    </div>
   );
 }

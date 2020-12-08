@@ -26,9 +26,15 @@ export default function Layout({ children, home }) {
           ></GitHubIcon>
           <LinkedInIcon
             className={styles.icons}
+            data-version="v1"
+            data-size="medium"
+            data-locale="en_US"
+            data-type="horizontal"
+            data-theme="light"
+            data-vanity="benjaminpatton41992"
             onClick={() =>
               window.open(
-                "https://www.linkedin.com/in/benjaminpatton41992",
+                "https://www.linkedin.com/in/benjaminpatton41992?trk=profile-badge",
                 "_blank"
               )
             }
@@ -40,6 +46,7 @@ export default function Layout({ children, home }) {
             }
           ></TwitterIcon>
         </div>
+
         {/* <div>
           <img
             className={`${styles.studyLogo} `}

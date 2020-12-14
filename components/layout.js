@@ -42,7 +42,7 @@ export default function Layout({ children, home }) {
           <TwitterIcon
             className={styles.twitterIcon}
             onClick={() =>
-              window.open("https://twitter.com/Ben55278503", "_blank")
+              window.open("https://twitter.com/BenAPatton", "_blank")
             }
           ></TwitterIcon>
         </div>

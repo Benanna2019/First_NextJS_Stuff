@@ -3,7 +3,7 @@ title: "When to Use Static Generation v.s. Server-side Rendering"
 date: "2020-11-20"
 ---
 
-_\*I left both this post and the 'Static Generation v.s Server-side Rendering' post because personally, they are fascinating._
+_\*I left both this post and the 'Two forms of Pre-rendering' post because personally, they are fascinating._
 
 _Note: This is originally a pre-rendered blog post from Next JS. I have added my own thoughts at the end of this blog_
 

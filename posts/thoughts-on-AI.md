@@ -1,5 +1,5 @@
 ---
-title: "Svelte - Initial Thoughts"
+title: "Will AI Put Us Out of Jobs: Web Developer Specific"
 date: "2021-02-02"
 ---
 

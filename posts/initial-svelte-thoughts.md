@@ -31,6 +31,6 @@ So, thanks Tom!
 
 Here are ways that you can follow Tom Wilson and his work.
 
-<a href="https://twitter.com/twilson63" target="blank">Tom's Twitter</a>
-<a href="https://twitter.com/hyper632" target="blank">hyper63 Twitter</a>
-<a href="https://docs.hyper63.com/" target="blank">hyper63 docs</a>
+<a href="https://twitter.com/twilson63" target="blank">- Tom's Twitter</a>
+<a href="https://twitter.com/hyper632" target="blank">- hyper63 Twitter</a>
+<a href="https://docs.hyper63.com/" target="blank">- hyper63 docs</a>

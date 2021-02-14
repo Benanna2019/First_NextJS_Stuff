@@ -1,6 +1,6 @@
 ---
 title: "Svelte - More Thoughts"
-date: "2021-02-13"
+date: "2021-02-14"
 ---
 
 This is a follow up blog to a blog I wrote a couple of weeks ago where I shared some of my initial thoughts on Svelte. You can read that one <a href="https://next-js-blog-xi.vercel.app/posts/initial-svelte-thoughts" target="blank">here</a>.

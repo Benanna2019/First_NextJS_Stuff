@@ -1,7 +1,11 @@
 import Head from "next/head";
-import Layout, { siteTitle } from "../components/layout";
+import Layout, {
+  siteTitle
+} from "../components/layout";
 import utilStyles from "../styles/utils.module.css";
-import { getSortedPostsData } from "../lib/posts";
+import {
+  getSortedPostsData
+} from "../lib/posts";
 import Link from "next/link";
 import Date from "../components/date";
 
@@ -14,10 +18,22 @@ export async function getStaticProps() {
   };
 }
 
-export default function Blog({ allPostsData }) {
-  return (
-    <Layout home>
+export default function Blog({
+  allPostsData
+}) {
+  return ( <Layout home>
       <Head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-LZJEVFYV5F"></script>
+          <script
+            async
+            dangerouslySetInnerHTML={{
+                __html: `window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', 'G-LZJEVFYV5F');`
+            }}
+          />
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>

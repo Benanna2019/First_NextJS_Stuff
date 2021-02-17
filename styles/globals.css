@@ -25,3 +25,9 @@ img {
   max-width: 100%;
   display: block;
 }
+
+@media (max-width: 600px) {
+  img {
+    width: 100%;
+  }
+}

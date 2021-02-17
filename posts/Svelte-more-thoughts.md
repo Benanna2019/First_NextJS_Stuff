@@ -38,8 +38,6 @@ but as you use them it becomes a more intuitive than a map statement. So say you
 
 <img src="/images/Svelte_Code.png" alt="Svelte code" />
 
-    
-
 So as you can see, this is a very short code block but a lot of things
 are happening.
 
